@@ -1,0 +1,68 @@
+/* <!-- Feel free to remove these styles or customise in your own stylesheet 👍 --> */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+#order-summary-box {
+  border: 2px solid black;
+  display: block;
+  width: 28%;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 5% auto;
+  /* background: #ffffff; */
+}
+
+#girl-listening-music {
+  width: 100%;
+}
+
+#main {
+    padding: 0px 7%;
+}
+
+#plans-div {
+    display: inline-block;
+    /* border: 2px solid red; */
+    width: 100%;
+    line-height: 10px;
+    border-radius: 10px;
+    /* text-align: center; */
+    background: hsl(225, 100%, 98%);
+}
+
+#music-icon {
+  width: 15%;
+  margin: 0px 12px;
+}
+
+#plans-details {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+#annula-plan-para{
+    font-weight: 900;
+}
+#proceed-to-payment {
+  display: block;
+}
+#description {
+  text-align: center;
+}
