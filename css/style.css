@@ -9,20 +9,22 @@
 }
 
 body {
-  background-image: url(images/pattern-background-desktop.svg);
+  background-image: url("../images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
 }
 
 h2 {
   text-align: center;
+  font-weight: 900;
+  color: #1F2E56;
 }
+
 #order-summary-box {
-  border: 2px solid black;
+  background: #ffffff;
   display: block;
-  width: 28%;
+  width: 30%;
   border-radius: 20px;
   overflow: hidden;
   margin: 5% auto;
@@ -34,35 +36,57 @@ h2 {
 }
 
 #main {
-    padding: 0px 7%;
+  padding: 7%;
 }
-
 #plans-div {
-    display: inline-block;
-    /* border: 2px solid red; */
-    width: 100%;
-    line-height: 10px;
-    border-radius: 10px;
-    /* text-align: center; */
-    background: hsl(225, 100%, 98%);
-}
-
-#music-icon {
-  width: 15%;
-  margin: 0px 12px;
+  display: flex;
+  width: 100%;
+  /* margin: 10px; */
+  padding: 5% 0px;
+  align-items: center;
+  border-radius: 10px;
+  background: hsl(225, 100%, 98%);
 }
 
 #plans-details {
-    display: inline-block;
-    margin-right: 25px;
+  margin-right: 17%;
+}
+#music-icon {
+  width: 15%;
+  margin: 0px 15px;
 }
 
-#annula-plan-para{
-    font-weight: 900;
+#annual-plan {
+  font-weight: 700;
+}
+
+a{
+  color: #3828E0;
+  text-decoration: underline;
+  font-weight: 700;
+}
+#annula-plan-para {
+  font-weight: 900;
 }
 #proceed-to-payment {
+  background: #3828E0;
+  color: #F4F7FF;
+  width: 100%;
+  border-radius: 11px;
+  padding: 4%;
+  margin: 7% 0%;
   display: block;
+  height: -14%;
 }
+
+#cancel-button {
+  border: none;
+  background: none;
+  width: 100%;
+  color: #717FA6;
+}
+
 #description {
   text-align: center;
+  color: #717FA6;
 }
